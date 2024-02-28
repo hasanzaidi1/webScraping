@@ -6,6 +6,7 @@ response = requests.get("https://open.spotify.com/playlist/6nZJDrkwViKpyEbYfLtVz
 soup = BeautifulSoup(response.text, "html.parser")
 
 div_elements = soup.find_all("div")
+print(len(div_elements))
 
-for element in div_elements[21:]:
-    print(element.text.strip())  
+for element in div_elements:
+    print(element.text.strip())
