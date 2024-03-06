@@ -19,4 +19,4 @@ To get started with web scraping, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/webscraping.git
+   git clone https://github.com/hasanzaidi1/webscraping.git
